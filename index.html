@@ -1,0 +1,77 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="description" content="Thomas Mcinally's Personal Website">
+  <meta name="author" content="Thomas Mcinally">
+  <meta name="web_author" content="Thomas Mcinally">
+  <title>Thomas Mcinally</title>
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+  <link href="css/main.css" rel="stylesheet">
+
+
+  <script>
+      function toggleOptions() {
+          if (document.querySelector("div.optionsCard").style.display == 'block' ) {
+              document.querySelector("div.optionsCard").style.display ='none'
+          } else {
+              document.querySelector("div.optionsCard").style.display = 'block'
+              locateMoreOptionsInRightPlace()
+          }
+      }
+      
+      function locateMoreOptionsInRightPlace() {
+          document.querySelector("div.centeredHorizontally").style.bottom = (window.innerHeight - document.querySelector("div.card").offsetHeight) / 2 
+      }
+  </script>
+</head>
+<body>
+    <div class="card centered fadeInLoad">
+        <div class="container">
+            <img src="./images/headshot.jpg" class="profile">
+            <p class="name">Thomas Mcinally</p>
+            <p class="info">
+                <span class="link">
+                    <a>
+                    Software Engineer
+                    </a>
+                </span>
+                @
+                <span class="link">
+                    <a href="https://www.oaknorth.co.uk/" target="_blank">
+                    OakNorth Bank
+                    </a>
+                </span>
+            </p>
+            <a href="mailto:thomasmcinally@hotmail.com" class="btn tooltip">
+                <i class="fa fa-envelope-o"></i>
+                <span class="tooltiptext">thomasmcinally@hotmail.com</span>
+            </a>
+            <a href="https://www.linkedin.com/in/thomas-mcinally-9009b8173/" class="btn tooltip">
+                <i class="fa fa-linkedin"></i>
+                <span class="tooltiptext">/thomas-mcinally-9009b8173</span>
+            </a>
+            <a href="https://github.com/thomas-mcinally" class="btn tooltip">
+                <i class="fa fa-github-alt"></i>
+                <span class="tooltiptext">/thomas-mcinally</span>
+            </a>
+
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</body>
+
+</html>
