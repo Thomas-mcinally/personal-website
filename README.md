@@ -1,2 +1,2 @@
 # personal-website
-https://thomas-mcinally.github.io/personal-website/
+http://thomasmcinally.com/
