@@ -1,2 +1,2 @@
 # personal-website
-http://thomasmcinally.com/
+https://thomasmcinally.com/
